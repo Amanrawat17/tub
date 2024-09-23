@@ -7,7 +7,7 @@ import io
 from PIL import Image
 
 # Load pre-trained Random Forest model
-rf_model_path = r'C:\Users\aman\Desktop\web\xgb_model.pkl'
+rf_model_path = 'xgb_model.pkl'
 with open(rf_model_path, 'rb') as file:
     rf_model = pickle.load(file)
 
